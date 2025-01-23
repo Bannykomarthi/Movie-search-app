@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+  }
+  
+  /* Search Form Styles */
+  #search-form {
+    margin-bottom: 20px;
+  }
+  #search-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #search-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Movie Results Styles */
+  #movie-results {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  .movie-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .movie-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .movie-card p {
+    color: #555;
+    font-size: 14px;
+  }
+  
